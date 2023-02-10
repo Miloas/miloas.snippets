@@ -1,3 +1,4 @@
+-- inspired from https://github.com/arsham/shark
 -- Requires {{{
 local ls = require("luasnip")
 local fmt = require("luasnip.extras.fmt").fmt
