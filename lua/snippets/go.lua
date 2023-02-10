@@ -341,5 +341,3 @@ return {
   -- }}}
 }
 -- stylua: ignore end
-
--- vim: fdm=marker fdl=0

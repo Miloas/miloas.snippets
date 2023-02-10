@@ -285,5 +285,3 @@ M.mirror_t_run_funcs = function(args) --{{{
 end --}}}
 
 return M
-
--- vim: fdm=marker fdl=0
