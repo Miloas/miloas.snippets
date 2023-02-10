@@ -21,6 +21,7 @@ M.go_err_snippet = function(args, _, _, spec)
   end
   return ls.sn(index, {
     ls.c(1, {
+      ls.t(err_name),
       ls.sn(nil, fmt('errors.Wrap({}, "{}")', { ls.t(err_name), ls.i(1, msg) })),
       ls.sn(nil, fmt('errors.Wrapf({}, "{}", {})', { ls.t(err_name), ls.i(1, msg), ls.i(2) })),
       ls.sn(
@@ -33,7 +34,6 @@ M.go_err_snippet = function(args, _, _, spec)
           ls.i(4, "fields"),
         })
       ),
-      ls.t(err_name),
     }),
   })
 end
