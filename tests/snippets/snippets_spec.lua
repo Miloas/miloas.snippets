@@ -1,0 +1,5 @@
+describe("setup", function()
+  it("works with default", function()
+    assert("works!", true)
+  end)
+end)
